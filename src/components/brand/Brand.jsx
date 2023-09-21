@@ -1,23 +1,23 @@
-import React from 'react';
-import { google, slack, atlassian, dropbox, shopify } from './imports';
-import './brand.css';
+import React from "react";
+import { google, slack, atlassian, dropbox, shopify } from "./imports";
+import "./brand.css";
 
 const Brand = () => (
   <div className="gpt3__brand section__padding">
     <div>
-      <img src={google} />
+      <img alt="Img" src={google} />
     </div>
     <div>
-      <img src={slack} />
+      <img alt="Img" src={slack} />
     </div>
     <div>
-      <img src={atlassian} />
+      <img alt="Img" src={atlassian} />
     </div>
     <div>
-      <img src={dropbox} />
+      <img alt="Img" src={dropbox} />
     </div>
     <div>
-      <img src={shopify} />
+      <img alt="Img" src={shopify} />
     </div>
   </div>
 );
